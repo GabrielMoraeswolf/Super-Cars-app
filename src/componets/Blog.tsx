@@ -55,7 +55,7 @@ const Blog: React.FC = () => {
           </article>
         </h1>
         <p className='presentation_Text'>
-          Hello, in this blog, I will introduce some of the most iconic cars in history.
+          <strong>Hello, in this blog, I will introduce some of the most iconic cars in history.</strong>
         </p>
       </section>
       {renderPosts()}
