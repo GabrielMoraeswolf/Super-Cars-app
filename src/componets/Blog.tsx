@@ -60,7 +60,10 @@ const Blog: React.FC = () => {
       </section>
       {renderPosts()}
       {renderComments()}
-      <footer>By: Gabriel Moraes</footer>
+      <footer className='footer' >
+        <h3 className= 'h3' > 
+          <a className='link' href="https://www.instagram.com/gabriel.moraesw/" target="_blank" rel="noopener noreferrer">@gabriel.moraesw</a>.</h3>
+      </footer>
     </div>
   );
 };

@@ -63,6 +63,7 @@ body{
     text-align: center;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 .post:hover{
     transform: scale(1.05);
@@ -110,7 +111,7 @@ img {
     background-color: red;
   }
   .containerIcon{
-    padding-left: 3px;
+    padding-left: 2px;
     padding-right: 5px;
   }
   .containerText{
@@ -124,6 +125,27 @@ img {
     justify-content:left;
     align-items: center;
   }
+
+  .footer {
+    margin-top: 35px;
+    margin-left: 35px;
+    
+}
+
+.h3 {
+    font-size: 18px;
+}
+
+.link {
+    color: rgb(237, 237, 242);
+    display: inline-block;
+    text-decoration: underline;
+}
+.link:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+}
 @media (max-width: 768px) {
 
     .post {
